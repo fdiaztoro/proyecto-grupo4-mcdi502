@@ -3,10 +3,10 @@
 Trabajos del curso MCDI502 (Magíster en Ciencias de Datos e Inteligencia Artificial, UNAB) con Apache Spark.
 
 ## Integrantes
-- Felipe Díaz ([@fdiaztoro](https://github.com/fdiaztoro))
-- Nino ([@nyevenes](https://github.com/nyevenes))
-- Guillermo ([@Gsubiabre](https://github.com/Gsubiabre))
-- Pablo Rios ([@pablo9876](https://github.com/pablo9876))
+- Felipe Díaz Toro ([@fdiaztoro](https://github.com/fdiaztoro))
+- Pablo Ríos Passteni ([@pablo9876](https://github.com/pablo9876))
+- Guillermo Subiabre Chacón ([@Gsubiabre](https://github.com/Gsubiabre))
+- Ninoska Yévenes Hernández ([@nyevenes](https://github.com/nyevenes))
 
 ## Evaluaciones
 | Evaluación | Pondera | Vence |
