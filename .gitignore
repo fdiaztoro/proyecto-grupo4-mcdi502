@@ -1,0 +1,21 @@
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Credenciales
+.env
+
+# Datos pesados: se descargan desde Canvas, no se versionan
+data/raw/*
+!data/raw/.gitkeep
+
+# Entregables comprimidos y video
+*.zip
+*.mp4
