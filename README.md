@@ -20,6 +20,25 @@ Trabajos del curso MCDI502 (Magíster en Ciencias de Datos e Inteligencia Artifi
 - `data/raw/`: datasets descargados de Canvas. No se suben a GitHub (ver `.gitignore`).
 - `docs/`: apuntes, guía de estudio y rúbricas.
 
+## Datos del Taller 1
+
+Copiar los seis archivos entregados por el docente en `data/raw/taller1_sumativa2/`:
+
+| Archivo | Lectura |
+| --- | --- |
+| `deportista.csv` | CSV sin encabezado, separado por coma |
+| `deportista2.csv` | CSV sin encabezado, separado por coma |
+| `equipo.csv` | CSV con encabezado, separado por coma |
+| `evento.csv` | CSV con encabezado, separado por coma; el notebook repara las filas con comillas adicionales |
+| `resultados.csv` | CSV con encabezado, separado por punto y coma (`;`) |
+| `juegos.json` | JSON multilínea |
+
+El notebook usa `ruta = '../data/raw/taller1_sumativa2/'`: iniciar el kernel desde `notebooks/` o ajustar esa ruta al directorio de trabajo. En Colab, subir los archivos o montar Drive y adaptar la ruta.
+
+En `juegos.json`, el campo original `temporada` contiene el año y `ciudad` contiene Verano/Invierno. La carga del notebook los renombra a `anio_edicion` y `temporada`.
+
+El conjunto recibido el 7 de noviembre de 2026 incluye `deportista.csv`, que faltaba en la copia inicial. Los archivos originales permanecen excluidos de Git; cada integrante debe disponer de su copia. El inventario de tamaños y hashes está en `docs/datasets_taller1.md`. Disponer de todos los archivos no acredita una ejecución completa en Spark.
+
 ## Reglas de entrega del Taller 1
 - Notebook: `mcdi502_s2_grupo4.ipynb`; video de 7 a 10 minutos: `mcdi502_s2_grupo4_video.mp4`.
 - Sin tildes, ñ ni símbolos; un solo guion; máximo 20 caracteres sin extensión.
