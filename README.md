@@ -51,5 +51,6 @@ Se desarrolla en VS Code, con este repositorio y el entorno de conda del grupo (
 - Notebook: `notebooks/mcdi502_s3_grupo4.ipynb`. La portada indica quién desarrolla cada sección.
 - Datos: cuatro fuentes en vivo (OpenMeteo, AQICN, MongoDB y MySQL), cada una con 100 registros.
 - Secretos: crear un archivo `.env` en la raíz del repo (está en `.gitignore`) a partir de `.env.example`, con el token de AQICN y la URI de MongoDB que entrega el docente. No se suben a GitHub.
+- macOS y Windows: el notebook detecta la ruta de Java del entorno de conda. En Windows no hace falta instalar Hadoop ni `winutils.exe`: la celda 1.3 descarga el conector de MongoDB a la carpeta `jars` de la instalación de Spark del entorno, que Spark carga al iniciar. Si al ejecutar la celda 1.3 ya había una sesión de Spark abierta, reiniciar el kernel.
 - Trabajo en equipo: rama propia, PR a `develop` y aprobación de otra persona, como en el Taller 1.
 - Entrega: `mcdi502_s3_grupo4.ipynb` y `mcdi502_s3_grupo4_video.mp4` (7 a 10 minutos) en un único `.zip`.
