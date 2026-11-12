@@ -16,7 +16,7 @@ Trabajos del curso MCDI502 (Magíster en Ciencias de Datos e Inteligencia Artifi
 | Sumativa 4 · Taller 3 | 20% | Dom 15 nov, 23:59 |
 
 ## Estructura
-- `notebooks/`: notebooks de Colab o Databricks (un archivo por taller).
+- `notebooks/`: notebooks de Jupyter (un archivo por taller). El Taller 2 se trabaja en VS Code.
 - `data/raw/`: datasets descargados de Canvas. No se suben a GitHub (ver `.gitignore`).
 - `docs/`: apuntes, guía de estudio y rúbricas.
 
@@ -43,3 +43,14 @@ El conjunto recibido el 7 de noviembre de 2026 incluye `deportista.csv`, que fal
 - Notebook: `mcdi502_s2_grupo4.ipynb`; video de 7 a 10 minutos: `mcdi502_s2_grupo4_video.mp4`.
 - Sin tildes, ñ ni símbolos; un solo guion; máximo 20 caracteres sin extensión.
 - Un integrante comprime ambos archivos en un único `.zip` y lo sube al buzón de Canvas.
+
+## Taller 2 (Sumativa 3)
+
+Se desarrolla en VS Code, con este repositorio y el entorno de conda del grupo (`grupo4_mcdi502`), según lo confirmado con el docente. Vence el domingo 15 de noviembre, 23:59.
+
+- Notebook: `notebooks/mcdi502_s3_grupo4.ipynb`.
+- Datos: cuatro fuentes en vivo (OpenMeteo, AQICN, MongoDB y MySQL), cada una con 100 registros.
+- Secretos: crear un archivo `.env` en la raíz del repo (está en `.gitignore`) a partir de `.env.example`, con el token de AQICN y la URI de MongoDB que entrega el docente. No se suben a GitHub.
+- macOS y Windows: el notebook detecta la ruta de Java del entorno de conda. En Windows no hace falta instalar Hadoop ni `winutils.exe`: la celda 1.3 descarga el conector de MongoDB a la carpeta `jars` de la instalación de Spark del entorno, que Spark carga al iniciar. Si al ejecutar la celda 1.3 ya había una sesión de Spark abierta, reiniciar el kernel.
+- Trabajo en equipo: rama propia, PR a `develop` y aprobación de otra persona, como en el Taller 1.
+- Entrega: `mcdi502_s3_grupo4.ipynb` y `mcdi502_s3_grupo4_video.mp4` (7 a 10 minutos) en un único `.zip`.
